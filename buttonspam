@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+import requests
+url = "http://cs-servera.net/167343/"
+post_data = {'addr': '195.39.241.213:27047', 'fun': 'c7af2d4093f14994af78f6b0a53e068e'}
+
+# Количество запросов
+lime = 1
+# Количество выполненных запросов
+inc = 0
+while lime > inc:
+    # Выполняем запрос
+	r = requests.post(url, data=post_data)
+	break
